@@ -360,9 +360,9 @@ document.getElementById("bookingForm").addEventListener("submit", function(e) {
             alert("⚠️ Something went wrong on the server. Please try again.");
         }
     })
-    .catch(error => {
-        alert("❌ Network error: " + error.message + ". Please check your connection and try again.");
-    });
+  .catch(error => {
+    alert("❌ Network error: " + error);
+});
 });
 </script>
 </div>
@@ -394,4 +394,5 @@ document.getElementById("bookingForm").addEventListener("submit", function(e) {
 
 </body>
 </html>
+
 
