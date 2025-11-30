@@ -295,8 +295,8 @@ it’s a memory you’ll treasure for a lifetime.</p>
                     </div>
                 </div>
                 
-        <div class="contact-form-section">
-<form id="bookingForm" action="https://formsubmit.co/flemred21@gmail.com" method="POST">
+      <div class="contact-form-section">
+<form action="https://formsubmit.co/flemred21@gmail.com" method="POST">
 
     <!-- Hidden FormSubmit settings -->
     <input type="hidden" name="_captcha" value="false">
@@ -341,12 +341,12 @@ it’s a memory you’ll treasure for a lifetime.</p>
     <button class="submit-btn" type="submit">Send Inquiry</button>
 </form>
 </div>
-
-<script>
-document.getElementById("bookingForm").addEventListener("submit", function() {
-    alert("✅ Your inquiry has been sent! Redirecting...");
+                <script>
+document.querySelector("form").addEventListener("submit", function() {
+    alert("Sending your inquiry...");
 });
 </script>
+                
 
     <!-- Footer -->
     <footer class="footer">
@@ -370,6 +370,7 @@ document.getElementById("bookingForm").addEventListener("submit", function() {
 
 </body>
 </html>
+
 
 
 
